@@ -1,0 +1,32 @@
+.App {
+  width: 480px;
+  height: 520px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.display {
+  border: 2px solid black;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-column: 1 / -1;
+  font-size: 44px;
+}
+
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.AC {
+  grid-column: 1 / span 2;
+}
+
+.equal {
+  grid-column: 4 / span 2;
+}
