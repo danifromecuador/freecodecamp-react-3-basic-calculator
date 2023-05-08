@@ -4,30 +4,25 @@ import Button from './components/Button';
 function App() {
   return (
     <div className="App">
-      <div className='display'></div>
-      <Button value="+"/>
-      <Button value="-"/>
-      <Button value="x"/>
-      <Button value="/"/>
-      <Button value="%"/>
-
-      <Button value="1"/>
-      <Button value="2"/>
-      <Button value="3"/>
-      <Button value="4"/>
-      <Button value="5"/>
-
-
-      <Button value="6"/>
-      <Button value="7"/>
-      <Button value="8"/>
-      <Button value="9"/>
-      <Button value="0"/>
-
-
-      <Button value="AC"/>
-      <Button value="."/>
-      <Button value="="/>
+      <div className='display'>0</div>
+      <Button className="button " value="%"/>
+      <Button className="button " value="/"/>
+      <Button className="button " value="-"/>
+      <Button className="button " value="+"/>
+      <Button className="button " value="x"/>
+      <Button className="button " value="1"/>
+      <Button className="button " value="2"/>
+      <Button className="button " value="3"/>
+      <Button className="button " value="4"/>
+      <Button className="button " value="5"/>
+      <Button className="button " value="6"/>
+      <Button className="button " value="7"/>
+      <Button className="button " value="8"/>
+      <Button className="button " value="9"/>
+      <Button className="button " value="0"/>
+      <Button className="button AC" value="AC"/>
+      <Button className="button " value="."/>
+      <Button className="button equal" value="="/>
     </div>
   );
 }
